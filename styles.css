@@ -58,7 +58,7 @@ header {
 
 .navbar ul li a {
   font-family: "Poppins", sans-serif;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .icon-cart {
@@ -88,40 +88,12 @@ header {
   border-radius: 20px;
 }
 
-/* .listProducts {
+.listProducts {
   margin-top: 5px;
   text-align: center;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 8px;
-} */
-
-.listProducts {
-  margin-top: 5px;
-  text-align: center;
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  gap: 8px;
-}
-
-@media (min-width: 768px) {
-  .listProducts {
-    grid-template-columns: repeat(3, 1fr);
-  }
-  .cartTab {
-    width: 400px;
-    right: -400px;
-  }
-}
-
-@media (min-width: 991px) {
-  .listProducts {
-    grid-template-columns: repeat(4, 1fr);
-  }
-  .cartTab {
-    width: 400px;
-    right: -400px;
-  }
 }
 
 .listProducts .list-item {

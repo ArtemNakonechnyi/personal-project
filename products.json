@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Lucky lc-22",
+    "price": 200,
+    "image": "img/black chair.jpeg"
+  },
+  {
+    "id": 2,
+    "name": "Monroe lc-12",
+    "price": 250,
+    "image": "img/eigth-chair.jpeg"
+  },
+  {
+    "id": 3,
+    "name": "Lord lc-11",
+    "price": 280,
+    "image": "img/fifth-chair.jpeg"
+  },
+  {
+    "id": 4,
+    "name": "Oreon lc-115",
+    "price": 280,
+    "image": "img/fourth-chair.jpeg"
+  },
+  {
+    "id": 5,
+    "name": "Gold lc-28",
+    "price": 200,
+    "image": "img/seventh-chair.jpeg"
+  },
+  {
+    "id": 6,
+    "name": "Marco lc-33",
+    "price": 300,
+    "image": "img/sexond-chair.jpeg"
+  },
+  {
+    "id": 7,
+    "name": "Nelse lc-42",
+    "price": 310,
+    "image": "img/sixth-chair.jpeg"
+  },
+  {
+    "id": 8,
+    "name": "Rondo lc-37",
+    "price": 320,
+    "image": "img/third-image.jpeg"
+  }
+]

@@ -1,0 +1,41 @@
+footer {
+  margin-top: 20px;
+  background-color: #efdecd;
+  padding: 15px 50px;
+}
+
+footer li {
+  cursor: pointer;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-phone ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-phone ul li:hover {
+  text-decoration: underline;
+}
+
+.socialNets ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.socialNets ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+
+.socialNets ul li:hover {
+  transform: scale(1.2);
+}

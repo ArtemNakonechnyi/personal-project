@@ -1,0 +1,20 @@
+.carousel-bestSellers {
+  margin: 20px 0 35px;
+}
+.carousel-item img {
+  width: 100%;
+  height: 650px;
+  object-fit: cover;
+}
+
+.carousel-item img.first {
+  object-position: center -700px;
+}
+
+.carousel-title {
+  text-align: center;
+  margin: 15px;
+  font-size: 2rem;
+  letter-spacing: 2px;
+  color: #808080;
+}

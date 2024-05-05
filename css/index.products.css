@@ -1,5 +1,10 @@
+.products-section {
+  padding-top: 5px;
+}
+
 .products-container {
-  margin: 10px 0 50px;
+  /* margin: 10px 0 50px; */
+  margin: 70px 0 50px;
 }
 .products-title {
   margin-top: 30px;

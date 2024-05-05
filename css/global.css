@@ -5,6 +5,7 @@ html {
 }
 
 body {
+  padding-top: 50px;
   font-family: "Poppins", sans-serif;
   margin: 0;
 }

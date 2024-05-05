@@ -1,4 +1,8 @@
 header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 5;
   background-color: #efdecd;
   box-shadow: 0 2px 4px rgb(167, 167, 167);
 }
@@ -11,18 +15,23 @@ header {
 }
 
 .navbar ul {
+  margin: 10px 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  height: 100%;
 }
 
 .navbar ul li {
+  display: flex;
   margin: 0 10px;
 }
 
 .navbar ul li a {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
+  display: flex;
+  align-items: center;
 }
 
 .icon-cart {

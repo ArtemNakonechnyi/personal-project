@@ -4,7 +4,9 @@ const closeCart = document.querySelector(".close");
 const listProdutHTML = document.querySelector(".listProducts");
 const listCartHTML = document.querySelector(".listCart");
 const iconCartSpan = document.querySelector(".icon-cart span");
+const cartTotal = document.querySelector(".cartTotal span");
 
+// let total = 0;
 let listProducts = [];
 let carts = [];
 iconCart.addEventListener("click", () => {
@@ -68,6 +70,7 @@ const addToCart = (product_id) => {
 
 const addCartToHTML = () => {
   listCartHTML.innerHTML = "";
+  let total = 0;
   let totalQuantity = 0;
   if (carts.length > 0) {
     carts.forEach((cart) => {
@@ -79,6 +82,7 @@ const addCartToHTML = () => {
         (value) => value.id == cart.product_id
       );
       let info = listProducts[positionProduct];
+      total += listProducts[positionProduct].price * cart.quantity;
       newCart.innerHTML = `
       <div class="image">
         <img src="${info.image}" alt="" />
@@ -94,6 +98,7 @@ const addCartToHTML = () => {
       listCartHTML.appendChild(newCart);
     });
   }
+  cartTotal.innerText = total;
   iconCartSpan.innerText = totalQuantity;
   addCartToMemory();
 };

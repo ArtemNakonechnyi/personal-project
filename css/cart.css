@@ -8,7 +8,7 @@
   right: -400px;
   bottom: 0;
   display: grid;
-  grid-template-rows: 70px 1fr 70px;
+  grid-template-rows: 70px 1fr 40px 70px;
   transition: 0.5s;
 }
 
@@ -24,6 +24,17 @@ body.showCart .container {
   padding: 10px;
   margin: 0;
   font-weight: 300;
+}
+
+.cartTotal {
+  border-top: 2px solid grey;
+  padding-left: 15px;
+  letter-spacing: 2px;
+  font-size: 1.5rem;
+}
+
+.cartTotal span {
+  letter-spacing: 5px;
 }
 
 .cartTab .btn {

@@ -81,6 +81,7 @@ const addCartToHTML = () => {
       let positionProduct = listProducts.findIndex(
         (value) => value.id == cart.product_id
       );
+      console.log("positionProduct:", positionProduct);
       let info = listProducts[positionProduct];
       total += listProducts[positionProduct].price * cart.quantity;
       newCart.innerHTML = `

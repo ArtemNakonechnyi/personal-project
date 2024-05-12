@@ -34,6 +34,17 @@ header {
   align-items: center;
 }
 
+.navbar ul li a div {
+  margin-left: 50px;
+  width: 40px;
+}
+
+.navbar ul li a div .logo {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
 .icon-cart {
   cursor: pointer;
   position: relative;

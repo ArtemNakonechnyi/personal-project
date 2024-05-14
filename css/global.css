@@ -19,9 +19,6 @@ body {
   transition: transform 0.5s;
 }
 
-main {
-  /* margin: 10px; */
-}
 svg {
   width: 30px;
 }

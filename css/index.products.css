@@ -49,6 +49,7 @@
 .listProducts .list-item .item-price {
   letter-spacing: 7px;
   font-size: small;
+  font-weight: bold;
 }
 
 .listProducts .list-item button {

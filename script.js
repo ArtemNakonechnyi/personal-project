@@ -1,3 +1,31 @@
+//login
+// const authorization = document.querySelector(".authorization");
+const wrapper = document.querySelector(".wrapper");
+const loginLink = document.querySelector(".login-link");
+const registerLink = document.querySelector(".register-link");
+const btnPopup = document.querySelector(".btnLoginPopup");
+const iconClose = document.querySelector(".icon-close");
+
+registerLink.addEventListener("click", () => {
+  wrapper.classList.add("active");
+});
+
+loginLink.addEventListener("click", () => {
+  wrapper.classList.remove("active");
+});
+
+btnPopup.addEventListener("click", () => {
+  wrapper.classList.add("active-popup");
+  // authorization.classList.add("active");
+});
+
+iconClose.addEventListener("click", () => {
+  wrapper.classList.remove("active-popup");
+  // authorization.classList.remove("active");
+});
+
+//login
+
 const iconCart = document.querySelector(".icon-cart");
 const body = document.querySelector("body");
 const closeCart = document.querySelector(".close");

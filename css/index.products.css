@@ -53,10 +53,24 @@
 }
 
 .listProducts .list-item button {
-  background-color: #353432;
+  background-color: #cea07e;
+  border: none;
   color: #eee;
   padding: 5px 10px;
   border-radius: 20px;
   margin-top: 10px;
   cursor: pointer;
+  text-transform: capitalize;
+  outline: none;
+  transition: 0.2s;
+}
+
+.addCart:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 0 #b48b6e;
+}
+
+.addCart:active {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 0 #b48b6e;
 }
